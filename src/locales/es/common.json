@@ -1,6 +1,6 @@
 {
-  "title": "Darmin Reyes - Desarrollador FullStack",
-  "description": "Desarrollador FullStack de República Dominicana. Especialista en CSS5, JavaScript ES6+, Node.js, Java, C++, Python y Ruby.",
+  "title": "Darmin Reyes - Software Dev",
+  "description": "Desarrollador de Software de República Dominicana. Especialista en CSS3, JavaScript ES6+, Node.js, Java, C++, Python y Ruby.",
   "navbar": [
     {
       "label": "Inicio",
@@ -21,7 +21,7 @@
   ],
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
-    "title": "¡Hola soy Darmin Reyes!",
+    "title": "¡Hola, soy Darmin Reyes!",
     "job_title": "<strong>Desarrollador FullStack</strong> de República Dominicana.",
     "description": "Especialista en CSS5, JavaScript ES6+, Node.js, Java, C++, Python y Ruby.",
     "cta": "Contáctame"
@@ -86,7 +86,7 @@
   "about": {
     "title": "Sobre mí",
     "subtitle": "Soy Darmin Reyes, freelance y estudiante de la carrera Desarrollo de Software en el ITLA.",
-    "description": "Soy un Desarrollador FullStack y de aplicaciones de Escritorio con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, además de backends escalables y robustos con un enfoque en tecnologías como JavaScript ES6+, Ruby, Java, Python y C++. Manejo frameworks como React, Vue JS, Astro, Next, Angular Node JS y Express, además de bases de datos como SQL Server, MySQL, PostgreSQL, Astro DB, Turso, etc. También manejo programas para diseño gráfico, la administración de proyectos, etc, entre ellos: Figma, Adobe XD, Photoshop, Illustrator, Notion, Git, Trello, entre otros."
+    "description": "Soy un Desarrollador de Software con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, además de aplicaciones escalables y robustas con un enfoque en tecnologías como JavaScript ES6+, Ruby, Java, Python y C++. Manejo frameworks como React, Vue JS, Astro, Next, Angular Node JS y Express, además de bases de datos como SQL Server, MySQL, PostgreSQL, Astro DB, Turso, etc. También manejo programas para diseño gráfico, la administración de proyectos, etc, entre ellos: Figma, Adobe XD, Photoshop, Illustrator, Notion, Git, Trello, entre otros."
   },
   "contact": {
     "title": "¿Listo para dar vida a tus ideas?",

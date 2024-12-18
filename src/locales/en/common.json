@@ -1,6 +1,6 @@
 {
-  "title": "Darmin Reyes - FullStack Developer",
-  "description": "FullStack Developer from the Dominican Republic. Specialist in CSS5, JavaScript ES6+, Node.js, Java, C++, Python, and Ruby.",
+  "title": "Darmin Reyes - Software Dev",
+  "description": "Software Developer from the Dominican Republic. Specialist in CSS3, JavaScript ES6+, Node.js, Java, C++, Python, and Ruby.",
   "navbar": [
     {
       "label": "Home",
@@ -85,7 +85,7 @@
   "about": {
     "title": "About me",
     "subtitle": "I'm Darmin Reyes, a freelancer and Software Development student at ITLA.",
-    "description": "I am a FullStack and Desktop Applications Developer with over 3 years of experience, specializing in creating modern designs and optimizing web performance, as well as scalable and robust backends. My expertise focuses on technologies such as JavaScript ES6+, Ruby, Java, Python, and C++. I work with frameworks like React, Vue JS, Astro, Next, Angular, Node.js, and Express, as well as databases like SQL Server, MySQL, PostgreSQL, Astro DB, Turso, among others. Additionally, I have experience with graphic design tools, project management, and more, including Figma, Adobe XD, Photoshop, Illustrator, Notion, Git, Trello, and others."
+    "description": "I am a Software Developer with over 3 years of experience, specializing in creating modern designs and optimizing web performance, as well as scalable and robust applications. My expertise focuses on technologies such as JavaScript ES6+, Ruby, Java, Python, and C++. I work with frameworks like React, Vue JS, Astro, Next, Angular, Node.js, and Express, as well as databases like SQL Server, MySQL, PostgreSQL, Astro DB, Turso, among others. Additionally, I have experience with graphic design tools, project management, and more, including Figma, Adobe XD, Photoshop, Illustrator, Notion, Git, Trello, and others."
   },
   "contact": {
     "title": "Ready to bring your ideas to life?",

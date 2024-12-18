@@ -21,8 +21,7 @@ const { title, contributions } = t('contributions', {
           description,
           techs,
           repo,
-          repo_label: repoLabel,
-          link
+          link,
         }) => (
           <CardContributions
             src={src}
@@ -31,7 +30,6 @@ const { title, contributions } = t('contributions', {
             description={description}
             techs={techs}
             repo={repo}
-            repoLabel={repoLabel}
             link={link}
           />
         )
