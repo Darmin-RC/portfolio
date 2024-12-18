@@ -15,19 +15,30 @@ interface Props {
 
 const { src, alt, title, description, techs, code, preview } = Astro.props
 
-const images = import.meta.glob('/src/images/projects/*.{jpeg,jpg,png}')
+// Usar un tipo genérico para mayor flexibilidad
+const images: Record<string, () => Promise<any>> = import.meta.glob(
+  '/src/images/projects/*.{jpeg,jpg,png}'
+)
+
 if (!images[src]) {
   throw new Error(
     `"${src}" no existe en: "/src/images/projects/*.{jpeg,jpg,png}"`
   )
 }
+
+// Resolver promesas y manejar funciones anidadas
+const imageModule = await images[src]()
+const resolvedSrc =
+  typeof imageModule === 'function'
+    ? (await imageModule()).default
+    : imageModule.default
 ---
 
 <section class="card-project">
   <div>
     <a href={preview} target="_blank" rel="noopener noreferrer">
       <Picture
-        src={images[src]()}
+        src={resolvedSrc}
         alt={alt}
         width={434}
         height={288}
@@ -57,7 +68,7 @@ if (!images[src]) {
     <div class="links">
       <a href={code} target="_blank" rel="noopener noreferrer">
         <Icon name="github" size={24} />
-          GitHub
+        GitHub
       </a>
       <a href={preview} target="_blank" rel="noopener noreferrer">
         <Icon name="link" size={24} />
