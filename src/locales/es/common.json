@@ -1,0 +1,95 @@
+{
+  "title": "Darmin Reyes - Desarrollador FullStack",
+  "description": "Desarrollador FullStack de República Dominicana. Especialista en CSS5, JavaScript ES6+, Node.js, Java, C++, Python y Ruby.",
+  "navbar": [
+    {
+      "label": "Inicio",
+      "href": "#top"
+    },
+    {
+      "label": "Experiencia",
+      "href": "#experiencia-laboral"
+    },
+    {
+      "label": "Proyectos",
+      "href": "#proyectos"
+    },
+    {
+      "label": "Sobre mí",
+      "href": "#sobre-mi"
+    }
+  ],
+  "hero": {
+    "job_availability": "¡Disponible para trabajar!",
+    "title": "¡Hola soy Darmin Reyes!",
+    "job_title": "<strong>Desarrollador FullStack</strong> de República Dominicana.",
+    "description": "Especialista en CSS5, JavaScript ES6+, Node.js, Java, C++, Python y Ruby.",
+    "cta": "Contáctame"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "jobs": {
+      "jobs_title": ["Freelance", "Hermanos H Multiservices"],
+      "jobs_description": [
+        {
+          "title": "Desarrollador FullStack",
+          "time": ["Sep 2021"],
+          "description": "Soy desarrollador fullstack freelance desde 2021, con experiencia en CSS5, JavaScript ES6+, Node.js, Java, C++, Python y Ruby. Me especializo en crear aplicaciones y sistemas robustos, eficientes y escalables en frontend y backend.",
+          "list": ["Desarrollo Web", "Diseño Web"]
+        },
+        {
+          "title": "Desarrollador FrontEnd",
+          "time": ["Sep 2022", "May 2023"],
+          "description": "Me encargué de desarrollar sitios web para clientes locales, durante mi tiempo en la empresa aporté mi conocimiento en la creación de sitios con un diseño moderno centrado en las necesidades de los usuarios. Además de desarrollar sistemas para empresas locales como supermercados, restaurantes y almacenes.",
+          "list": ["Desarrollo Web", "Desarrollo Desktop"]
+        }
+      ]
+    }
+  },
+"projects": {
+  "title": "Proyectos",
+  "projects": [
+    {
+      "title": "Brutal Restaurant",
+      "description": "Diseño de Brutal Restaurant, unos de los restaurantes locales más populares, ahora cuentan con un sitio web moderno con una ux muy agradable.",
+      "image": "/src/images/projects/brutal-restaurant.png",
+      "techs": ["Astro", "TailwindCSS", "Firebase"],
+      "code": "https://github.com/Darmin-RC/restaurant",
+      "preview": "https://brutal-restaurant.vercel.app/"
+    },
+    {
+      "title": "RetailPro",
+      "description": "RetailPro es un sistema para supermercados desarrollado en Java, cuenta con una estructura robusta, lo que hace fácil de mantener y de escalar, además de una interfaz moderna y minimalista.",
+      "image": "/src/images/projects/retail-pro.png",
+      "techs": ["Java", "MySQL", "Maven"],
+      "code": "https://github.com/Darmin-RC/RetailPro",
+      "preview": "https://github.com/Darmin-RC/RetailPro"
+    }
+  ]
+},
+
+  "contributions": {
+    "title": "Contribuciones",
+    "contributions": [
+      {
+        "src": "/src/images/contributions/boxy-framework.png",
+        "alt": "Boxy CSS Framework",
+        "title": "Boby CSS Framework",
+        "description": "En conjunto con un grupo de desarrolladores voluntarios de todo LATAM, fue parte del proyecto de Boxy CSS, un Framework de CSS que busca la simplicidad del código sin perder la escencia de los estilos.",
+        "techs": ["CSS", "JavaScript"],
+        "repo": "https://github.com/hetziel/boxy",
+        "repo_label": "Repositorio",
+        "link": "https://boxyframework.web.app/"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Soy Darmin Reyes, freelance y estudiante de la carrera Desarrollo de Software en el ITLA.",
+    "description": "Soy un Desarrollador FullStack y de aplicaciones de Escritorio con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, además de backends escalables y robustos con un enfoque en tecnologías como JavaScript ES6+, Ruby, Java, Python y C++. Manejo frameworks como React, Vue JS, Astro, Next, Angular Node JS y Express, además de bases de datos como SQL Server, MySQL, PostgreSQL, Astro DB, Turso, etc. También manejo programas para diseño gráfico, la administración de proyectos, etc, entre ellos: Figma, Adobe XD, Photoshop, Illustrator, Notion, Git, Trello, entre otros."
+  },
+  "contact": {
+    "title": "¿Listo para dar vida a tus ideas?",
+    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo🤑"
+  }
+}

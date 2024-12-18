@@ -1,0 +1,68 @@
+html {
+  .astro,
+  .mysql {
+    background-color: #7f4932;
+    transition: var(--transition-bg);
+  }
+
+  .tailwindcss,
+  .css,
+  .typescript {
+    background-color: #32547f;
+    transition: var(--transition-bg);
+  }
+
+
+
+  .javascript {
+    background-color: #665e24;
+    transition: var(--transition-bg);
+  }
+
+  .firebase {
+    background-color: #7f6932;
+    transition: var(--transition-bg);
+  }
+
+    .mysql {
+      background-color: #a32600;
+    }
+
+    .java {
+      background-color: #0e173f;
+    }
+
+    .maven {
+      background-color: #bddaff;
+      color: #000;
+    }
+}
+
+html.dark {
+  .astro{
+    background-color: #ffbc96;
+  }
+
+  .java, .mysql {
+    color: #fff;
+  }
+
+  .maven {
+    background-color: #1c80bf5e;
+    color: #000;
+  }
+
+  .tailwindcss,
+  .css,
+  .typescript {
+    background-color: #bddaff;
+  }
+
+  .javascript {
+    background-color: #e2da9a;
+  }
+
+  .firebase {
+    background-color: #ffdd88;
+  }
+}
